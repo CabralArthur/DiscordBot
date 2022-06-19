@@ -1,0 +1,19 @@
+{
+    "name": "discord-bot",
+    "main": "main.js",
+    "author": "Arthur Cabral",
+    "version": "0.0.1",
+    "repository": "https://github.com/CabralArthur/DiscordBot.git",
+    "description": "A complete code to Discord bot.",
+    "scripts": {
+      "start": "node main.js",
+      "start:dev": "nodemon main.js"
+    },
+    "dependencies": {
+      "discord-player": "^5.1.0",
+      "discord.js": "^13.1.0",
+      "ffmpeg-static": "^4.4.0",
+      "ms": "^3.0.0-canary.1",
+      "opusscript": "^0.0.8"
+    }
+  }
